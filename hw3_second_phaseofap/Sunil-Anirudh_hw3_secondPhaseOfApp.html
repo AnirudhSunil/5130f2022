@@ -1,0 +1,73 @@
+
+<!--This code is written entirely by Anirudh Sunil-->
+<!---- this file is for the form -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>More About you !</title>
+	<script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/1Tg2thaVVNlvqel1/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Thank you for your response !")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+<style>
+body{
+
+background-color: #fefbd8;
+
+}
+</style>
+</head>
+<body>
+<h2>Thank you for Participating in the Survey ! </h2>
+	<form id="myForm">
+	<fieldset>
+<legend><b>Tell us more about yourself </b></legend>
+	
+		<p><label>Where are you from ? </label>
+		<input name="from" />
+		<br/></p>
+		<p><label>Which is your dream city to live in ?</label>
+		<input name="city" />
+		<br/></p>
+		<p><label>what is the first thing on your bucket list ?</label>
+		<input name="bucketlist" />
+		<br/></p>
+		<p><label>Your Preffered Airline for travel  ?</label>
+		<input name="Airline" />
+		<br/></p>
+		<p><label>Tell us your dream holiday destination :</label>
+		<input name="Holidaydestination" />
+		<br/></p>
+		<p> which would you rather prefer ? </p>
+		<p>
+		<label>Beach</label>
+		<input type="radio" name="Beach" />
+		<label>Mountain</label>
+		<input type="radio" name="Mountain" />
+		<br/>
+		</p>
+		<p><label>comments :</label></p>
+		<textarea name="comments" cols = "30" rows="3"></textarea>
+		<br/>
+
+	</form></br>
+	<button onclick='SubForm()'>Submit</button>
+	</fieldset>
+</body>
+
+</html>
