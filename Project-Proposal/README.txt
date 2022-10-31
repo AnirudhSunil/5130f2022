@@ -26,6 +26,10 @@ These recommendations will help them to have a better gaming experience with wha
 
 While they might not have the true feel of the game with high powered systems, but they can enjoy the game without having to struggle with unwanted game crashes and lags due to game settings. 
 
+References : 
+
+https://www.dynatrace.com/support/help/dynatrace-api
+
 
                     
 
