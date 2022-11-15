@@ -1,0 +1,45 @@
+Project research / road map : 
+
+1) Research the ideal settings for games depending on the PC. 
+
+2) implement the API to fetch the PC configuration of the user 
+
+3) based on the configuration, display the ideal settings for that particular game on a webpage.  
+
+
+Front-end wepage design pattern : 
+
+Game : GTA 5-> 
+
+Processor core i 3 / 8gb ram  : -> 
+
+Improve FPS (by a large amount) with a moderate impact on visuals . 
+
+Population Density: Lower this to between 25 and 0%.
+Grass Quality: This makes the biggest difference if you are getting frame rate drops in heavily forested areas. Lower this to normal.
+Post FX: Lower this to normal or high.
+Turn MSAA off.
+
+Very last resort:
+
+Set everything as low as you can tolerate.
+If you try all of the above and still can’t run the game as smoothly as you would like, you may need to upgrade your hardware.
+
+
+Processor core i 5 / 8gb ram  :
+
+Improve FPS (slightly) by following the settings below : 
+
+Distance Scaling: Lower this to under 30%.
+Shadow Quality: Lower this to either High or Normal.
+Reflection MSAA: Lower this from 8x MSAA to at least 4x MSAA.
+Water Quality: Lower this to Normal.
+Extended Distance Scaling: Lower this to under 30%.
+Shader Quality: Lower this to Normal.
+Reflection Quality: Lower this to either High or Normal.
+
+
+Here we are suggesting the in game settings based on the processor. 
+
+
+we Would also add the minimum and maximum requirements which the game developers suggest for a reference to get an idea of where the users PC standards. 
